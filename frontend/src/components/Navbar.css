@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    align-items: center;
+    margin: 0 0rem; /* Adjust the margin as needed */
+  }
+  
+  .navbar li {
+    margin: 0 1rem; /* Adjust the margin as needed */
+  }
+  
+  .navbar li a {
+    color: #020202;
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  .navbar li a:hover {
+    color: teal;
+  }
+  
+ 
