@@ -1,0 +1,72 @@
+/* custom.css */
+:root {
+    --primary-color: teal; /* Your custom primary color */
+    --secondary-color: rebeccapurple; /* Your custom secondary color */
+    --grey-color: #bdbdbd; /* Your custom grey color */
+    --black-color-400: #757575; /* Your custom black color (400) */
+    --black-color-500: #616161; /* Your custom black color (500) */
+    --black-color-700: #424242; /* Your custom black color (700) */
+    --black-color-900: #212121; /* Your custom black color (900) */
+    --font-family: 'Poppins', sans-serif; /* Your custom font family */
+  }
+  
+  /* Example usage */
+  .btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  
+  .text-grey {
+    color: var(--grey-color);
+  }
+  
+  .text-black-400 {
+    color: var(--black-color-400);
+  }
+  
+  .text-black-500 {
+    color: var(--black-color-500);
+  }
+  
+  .text-black-700 {
+    color: var(--black-color-700);
+  }
+  
+  .text-black-900 {
+    color: var(--black-color-900);
+  }
+  
+  body {
+    font-family: var(--font-family);
+  }
+  
+  .p-1 {
+    padding: 0.25rem;
+  }
+  
+  .p-2 {
+    padding: 0.5rem;
+  }
+  
+  .p-3 {
+    padding: 1rem;
+  }
+  
+  .p-4 {
+    padding: 1.5rem;
+  }
+  
+  .mt-1 {
+    margin-top: 0.25rem;
+  }
+  
+  .my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
